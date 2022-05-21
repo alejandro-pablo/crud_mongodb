@@ -22,10 +22,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/infodp/crud_mongodb.git"
+    "url": "https://github.com/alejandro-pablo/crud_mongodb"
   },
   "bugs": {
-    "url": "https://github.com/infodp/crud_mongodb/issues"
+    "url": "https://github.com/alejandro-pablo/crud_mongodb"
   },
-  "homepage": "https://github.com/infodp/crud_mongodb#readme"
+  "homepage": "https://github.com/alejandro-pablo/crud_mongodb"
 }
