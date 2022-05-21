@@ -1,20 +1,29 @@
 /* Estilos boton GUARDAR*/
-.btn-guardar{
-    width: 100%;
-    padding: 15px;
-    background-color: #20c997;
-    border: 0;
-    box-sizing: border-box;
-    cursor: pointer;
-    font-weight: bold;
-    font-size: large;
-    color: #ffffff;
-  }
-  .btn-guardar:hover,.btn-guardar:active{
-    color:#fff;
-    background-color:#13795b;
-    border-color:#13795b;
-  }
-  .btn-guardar:focus{
-    box-shadow:0 0 0 3px rgba(121,82,179,0.25)
-  }
+body {
+  background: #cfcfcf;
+}
+
+.container {
+  position: relative;
+}
+
+.btn-guardar {
+  width: 100%;
+  padding: 15px;
+  background-color: #9ba016;
+  border: 0;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: large;
+  color: #000000;
+}
+.btn-guardar:hover,
+.btn-guardar:active {
+  color: #fff;
+  background-color: #566700;
+  border-color: #566700;
+}
+.btn-guardar:focus {
+  box-shadow: 0 0 0 3px rgba(121, 82, 179, 0.25);
+}
