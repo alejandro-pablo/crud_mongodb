@@ -1,22 +1,21 @@
-const express = require('express')
-const app = express()
+const express = require("express");
+const app = express();
 
-const db = require('./db')
+require("./db");
 
-app.set('view engine', 'ejs')
+app.set("view engine", "ejs");
 
-app.use(express.urlencoded({extended:true}))
-app.use(express.json())
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
 
-app.use(express.static('public'))
+app.use(express.static("public"));
 
-const alumnos = require('./routes/alumnos')
-app.use(alumnos)
+app.use('/',require("./routes/artistas"));
 
-app.get('/', (req, res)=>{
-    res.send('hola mundo')
-})
+app.get("/", (req, res) => {
+  res.render("index");
+});
 
-app.listen(3000, ()=>{
-    console.log('¡Server UP! en http://localhost:3000')
-})
+app.listen(3008, () => {
+  console.log("¡ Estableciendo conexion en http://localhost:3008 !");
+});
